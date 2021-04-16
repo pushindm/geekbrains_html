@@ -1,0 +1,56 @@
+body {
+    font-family:sans-serif;
+}
+
+.header_2_contacts,
+.header_3,
+.submit_button {
+    text-align: center;
+}
+
+.paragraph,
+.header_1,
+.header_4 {
+    color: #1F3F68;
+}
+
+.paragraph {
+font-size: 16px;
+line-height: 26px;
+}
+
+.header_1 {
+    font-size: 64px;
+}
+
+.header_2_contacts {
+    font-weight: 500;
+    font-size: 44px;
+}
+
+.header_3 {
+    font-size: 36px;
+}
+
+.header_4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.input {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.submit_button {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
