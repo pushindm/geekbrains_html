@@ -1,46 +1,110 @@
-body{
-    font-family: sans-serif;
+/* 
+start of new part 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.paragraph, .heading, .subsubsubheading {
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.top-heading {
+    color: #1F3F68;
+    font-size: 64px;
+    width: 510px;
+}
+
+.top-text {
+    width: 425px;
     color: #1F3F68;
 }
 
-.subheading, .subsubheading {
-    text-align: center;
+.products {
+    display: flex;
+    justify-content: space-around;
 }
 
-.paragraph{
-    font-size: 16px;
-    line-height: 26px;
+.product-name {
+    width: 359px;
 }
 
-.heading{
-    font-size: 64px;
+.footer-top {
+    width: 495px;
 }
 
-.subheading{
-    font-weight: 500;
-    font-size: 44px;
-}
-
-.subsubheading{
+.footer-subheading {
+    width: 340px;
+    text-align: left;
     font-size: 36px;
 }
 
-.subsubsubheading{
-    font-size: 20px;
-    line-height: 30px;
+.footer-contacts {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
 }
 
-.entryfield{
+
+/* contacts page*/
+
+.contacts-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 
+end of new part
+*/
+
+body {
+    font-family: sans-serif;
+}
+
+.project-description {
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.heading {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.subheading {
+    font-size: 36px;
+    text-align: center;
+}
+
+.heading-mini {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.entryfield {
     border: 1px solid #356EAD;
     box-sizing: border-box;
     border-radius: 10px;
     opacity: 0.4;
 }
 
-.submitbutton{
+.submitbutton {
     background: #5A98D0;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;

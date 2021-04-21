@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    }
+
+body {
+    width: 1360px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid transparent;
+}
+
+.header {
+    width: 100%;
+    height: 750px;
+    background-color: aqua;
+}
+
+.frame {
+    margin: auto;
+    width: 1150px;
+    height: 100px;
+    background-color: bisque;
+    
+}
+
+.menu {
+    height: 50px;
+    background-color: chartreuse;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_h1 {
+    width: 510px;
+}
+
+.header_p {
+    width: 425px;
+}
+
+.header_content {
+    background-color: azure;
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.what-we-do-container {
+    padding-top: 50px;
+    padding-left: 105px;
+    padding-right: 105px;
+}
+
+.carusel {
+    height: 600px;
+    background-color: blueviolet;
+    margin-top: 30px;
+}
+
+.carusel_title {
+    text-align: center;
+    
+}
+
+.carusel_center {
+    height: 500px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carusel_windows {
+    height: 460px;
+    background-color: rgb(44, 87, 206);
+    width: 359px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+
+.finished {
+    height: 150px;
+    background-color: brown;
+    margin-top: 30px;
+}
+
+.finithed_content {
+    text-align: center;
+}
+
+.footer {
+    padding-left: 105px;
+    padding-right: 105px;
+    height: 650px;
+    box-sizing: border-box;
+    background-color: #eee;
+}
+
+.footer_content_text {
+    width: 495px;
+}
+
+.footer_top {
+    background-color: red;
+    margin-top: 10px;
+    height: 400px;
+}
+
+.footer_bottom {
+    background-color: darkorange;
+    margin-top: 10px;
+    height: 200px;
+}
+
+.footer_bottom_first {
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.footer_content {
+    margin-top: 30px;
+    height: 250px;
+    background-color: cyan;
+    width: 500px;
+}
+
+.all_right {
+    margin-top: 70px;
+}
+
+.contacts_header_content {
+    background-color: blue;
+    height: 150px;
+    text-align: center;
+}
+
+.cont_cont_top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container_contacts {
+    border: 1px solid #000;
+}
