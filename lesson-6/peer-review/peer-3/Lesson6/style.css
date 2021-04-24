@@ -1,0 +1,295 @@
+body{
+    font-family: sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text{
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+.top__text{
+    width: 425px;
+}
+
+.text_project{
+    color: #222222;
+    width: 75%;
+    margin: 32px auto 64px;
+    opacity: 1;
+    text-align: center;
+    }
+
+.infoOl{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    margin-top: 64px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 154px;
+    text-align: center;
+    font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
+
+
+.zagolovok1{
+width: 510px;
+font-weight: 300;
+font-size: 64px;
+line-height: 74px;
+letter-spacing: 0.04em;
+color: #1F3F68;
+margin-bottom: 32px;
+}
+
+.zagolovok2{
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.zagolovok3{
+font-weight: 300;
+font-size: 36px;
+line-height: 46px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #000000;
+}
+
+.zagolovok3-1{
+width: 340;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+margin-bottom: 32px;
+}
+
+.zagolovok4{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+    margin-bottom: 14px;
+}
+
+
+.inputArea{
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.buttonStyle{
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    
+    }
+
+    .top__box{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+.top{
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.zagolovok{
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(img/illustration.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.top__button{
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background: #5A98D0;
+box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+border-radius: 10px;
+padding: 15px 50px;
+text-decoration: none;
+display: inline-block;
+margin-top: 71px;
+}
+
+.bottom__button{
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background: #5A98D0;
+padding: 15px 80px;
+text-decoration: none;
+margin-top: 165px;
+margin-right: 114px;
+margin-left: 910px;
+position: absolute;
+}
+
+.what-we-do{
+    padding-top: 64px;
+}
+
+.card__box{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.box{
+width: 359px;
+padding: 44px 32px;    
+background: #FFFFFF;
+box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+border-radius: 10px;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+}
+
+.box__img{
+    align-self: center;
+    margin-bottom: 51px;
+}
+.box__link{
+font-size: 14px;
+line-height: 30px;
+letter-spacing: 0.05em;
+color: #5A98D0;
+text-decoration: none;
+}
+
+.project_item{
+
+    position: relative;
+    flex-grow: 1;
+}
+.project_parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.project_item_margim{
+    margin-right: 32px;
+}
+
+.project_img{
+    width: 100%;
+    
+}
+.project_text{
+font-size: 32px;
+line-height: 46px;
+text-align: right;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+position: absolute;
+top: 64px;
+right: 64px;
+}
+
+.project_text1{
+font-size: 28px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+position: absolute;
+top: 32px;
+left: 32px;
+
+}
+
+
+.map{
+
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+}
+
+.footer{
+   margin-top: 112px;
+    height: 657px;
+    background: #316099;
+}
+
+.footer_box{
+    display: flex;
+        flex-direction: column;
+        height: 100%;
+}
+.contacts_box{
+    margin-top: 91px;
+    width: 340;
+}
+
+.contacts_text{
+    color: #FFFFFF;
+    width: 495px;
+}
+.hr{
+    margin-top: 96px;
+opacity: 0.4;
+border: 1px solid #FFFFFF;
+
+}
+
+.h3contacts{
+    
+    width: 495px;
+
+}
+
+.contactsInformation{
+   
+    box-sizing: border-box;
+    
+}
+
+.alr_text{
+    margin-left: 113px;
+    margin-bottom: 64px;
+    margin-top: 64px;
+color: #FFFFFF;
+opacity: 0.4;
+}
